@@ -9,13 +9,26 @@
 </head>
 <body>
     <div class="container">
+        <!-- Stats -->
         <div class="stats">
-            <p>Timer: <span id="time">0s</span> </p>
+            <p>Time: <span id="timer">0s</span> </p>
             <p>Mistakes: <span id="mistakes">0</span> </p>
         </div>
+        
+        <!-- Text box -->
+        <textarea id="text-box" rows="3" placeholder="Begin typing once test begins..."></textarea>
+
+        <!-- Buttons for Start/Stop test -->
+        <button id="start-test">Begin Test</button>
+        <button id="end-test">End Test</button>
+
+        <!-- Results (Accuracy, Speed) -->
+        <div class="results">
+            <h2>Results</h2>
+            <p>Accuracy: <span id="accuarcy"></span></p>
+            <p>Speed: <span id="speed"></span></p>
+        </div>
     </div>
-
-
 
     <script src="index.js"></script>
 </body>
