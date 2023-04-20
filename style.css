@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color:mediumpurple;
+}
+
+/* Styling for container starts */
+.container {
+    background-color:white;
+    width: 80vmin;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+/* Styling for container ends */
+
+
+
+/* Styling for stats starts */
+.stats {
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.stats span{
+    font-weight: 800;
+}
+/* Styling for stats ends */
+
+
+
+/* Styling for text area starts */
+#text-box {
+    text-align: justify;
+    margin: 45px 0 25px 0;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 5px;
+    resize: none;
+    font-size: 14px;
+}
+/* Styling for text area ends */
+
+
+
+/* Styling for buttons starts */
+button {
+    background-color:mediumpurple;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    float: right;
+
+}
+/* Styling for buttons ends */
+
+
+
+/* Styling for results starts */
+.results {
+    margin-top: 40px;
+    display: none;
+}
+
+.results h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper span {
+    font-weight: 600;
+}
+/* Styling for results ends */
+
+.success {
+    color: rgb(56, 151, 56);
+}
+
+.fail {
+    color: rgb(211, 0, 0);
+}
