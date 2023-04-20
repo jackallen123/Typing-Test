@@ -40,7 +40,7 @@ body {
 
 
 /* Styling for text area starts */
-#text-box {
+#quote {
     text-align: justify;
     margin: 45px 0 25px 0;
 }
@@ -73,12 +73,12 @@ button {
 
 
 /* Styling for results starts */
-.results {
+.result {
     margin-top: 40px;
     display: none;
 }
 
-.results h2 {
+.result h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 20px;

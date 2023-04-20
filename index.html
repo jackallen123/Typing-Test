@@ -11,23 +11,24 @@
     <div class="container">
         <!-- Stats -->
         <div class="stats">
-            <p>Time: <span id="timer">0s</span> </p>
-            <p>Mistakes: <span id="mistakes">0</span> </p>
+            <p>Time: <span id="timer">0s</span></p>
+            <p>Mistakes: <span id="mistakes">0</span></p>
         </div>
+        <div id="quote" onmousedown="return false" onselectstart="return false"></div>
         
         <!-- Text box -->
-        <textarea id="text-box" rows="3" placeholder="Begin typing once test begins..."></textarea>
+        <textarea id="quote-input" rows="3" placeholder="Begin typing once test begins..."></textarea>
 
         <!-- Buttons for Start/Stop test -->
-        <button id="start-test">Begin Test</button>
-        <button id="end-test">End Test</button>
+        <button id="start-test" onclick="startTest()">Start Test</button>
+        <button id="stop-test" onclick="displayResult()">Stop Test</button>
 
         <!-- Results (Accuracy, Speed) -->
-        <div class="results">
+        <div class="result">
             <h2>Results</h2>
             <div class="wrapper">
-                <p>Accuracy: <span id="accuarcy"></span></p>
-                <p>Speed: <span id="speed"></span></p>
+                <p>Accuracy: <span id="accuracy"></span></p>
+                <p>Speed: <span id="wpm"></span></p>
             </div>
         </div>
     </div>
